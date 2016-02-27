@@ -56,10 +56,6 @@ PRODUCT_PACKAGES += \
     fingerprintd \
     fingerprint.suzuran
 
-# NFC config
-PRODUCT_PACKAGES += \
-    nfc_nci.suzuran
-
 # Telephony Packages (AOSP)
 PRODUCT_PACKAGES += \
     InCallUI \
