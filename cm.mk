@@ -12,16 +12,15 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-TARGET_KERNEL_CONFIG := aosp_kitakami_suzuran_defconfig
+# Inherit CM common Phone stuff.
+$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from those products. Most specific first.
 $(call inherit-product, device/sony/suzuran/device.mk)
-$(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
-$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
-PRODUCT_NAME := aosp_e5823
+PRODUCT_NAME := cm_suzuran
 PRODUCT_DEVICE := suzuran
-PRODUCT_MODEL := Xperia Z5 Compact (AOSP)
+PRODUCT_MODEL := E5823
 PRODUCT_BRAND := Sony
 PRODUCT_MANUFACTURER := Sony
 
