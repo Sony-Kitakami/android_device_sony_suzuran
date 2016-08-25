@@ -14,6 +14,9 @@
 
 include device/sony/kitakami/PlatformConfig.mk
 
+# Include path
+TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
+
 TARGET_BOOTLOADER_BOARD_NAME := E5823
 
 TARGET_KERNEL_CONFIG := cyanogenmod_kitakami_suzuran_defconfig
