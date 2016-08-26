@@ -13,8 +13,8 @@
 # limitations under the License.
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 1920
-TARGET_SCREEN_WIDTH := 1080
+TARGET_SCREEN_HEIGHT := 1280
+TARGET_SCREEN_WIDTH := 720
 
 DEVICE_PACKAGE_OVERLAYS += \
     device/sony/suzuran/overlay
