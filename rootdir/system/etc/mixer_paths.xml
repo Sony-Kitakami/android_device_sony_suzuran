@@ -1844,8 +1844,8 @@
 
     <path name="stereo-mic-gain-high">
         <path name="stereo-mic-common" />
-        <ctl name="DEC7 Volume" value="220" />
-        <ctl name="DEC9 Volume" value="220" />
+        <ctl name="DEC7 Volume" value="222" />
+        <ctl name="DEC9 Volume" value="222" />
     </path>
 
     <path name="speaker-mono-mic-common">
@@ -1869,12 +1869,12 @@
 
     <path name="speaker-mono-mic-gain-high">
         <path name="speaker-mono-mic-common" />
-        <ctl name="DEC7 Volume" value="215" />
+        <ctl name="DEC7 Volume" value="211" />
     </path>
 
     <path name="speaker-mic-liquid">
         <path name="dmic3" />
-        <ctl name="DEC9 Volume" value="225" />
+        <ctl name="DEC9 Volume" value="227" />
     </path>
 
     <path name="speaker-mic-sbc">
@@ -2453,8 +2453,8 @@
 
     <path name="camcorder-mic-gain-high">
         <path name="camcorder-mic-common" />
-        <ctl name="DEC7 Volume" value="220" />
-        <ctl name="DEC9 Volume" value="220" />
+        <ctl name="DEC7 Volume" value="222" />
+        <ctl name="DEC9 Volume" value="222" />
     </path>
 
     <path name="hdmi-tx">
