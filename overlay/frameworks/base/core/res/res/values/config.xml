@@ -133,4 +133,6 @@
          The default is false. -->
     <bool name="config_lidControlsSleep">true</bool>
 
+    <!-- MMS user agent prolfile url -->
+    <string name="config_mms_user_agent_profile_url" translatable="false">http://uaprof.sonymobile.com/E5803R3211.xml</string>
 </resources>
