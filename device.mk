@@ -76,6 +76,10 @@ PRODUCT_PROPERTY_OVERRIDES := \
 # Dalvik Heap
 $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 
+## 8MP Switch for ES
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.camera.8mp.config=true
+
 # Inherit from those products. Most specific first.
 $(call inherit-product, device/sony/kitakami/platform.mk)
 $(call inherit-product, vendor/sony/kitakami-suzuran/suzuran-vendor.mk)
